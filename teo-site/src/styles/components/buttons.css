@@ -1,0 +1,35 @@
+/* Evităm .btn-primary pentru a nu suprascrie Bootstrap.
+   Folosim .btn + clasele noastre .btn-brand / .btn-brand-outline */
+
+.btn-brand,
+.btn-brand-outline {
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Plin */
+.btn-brand {
+  background: var(--brand);
+  color: #fff;
+  border: 2px solid var(--brand);
+}
+
+.btn-brand:hover {
+  background: var(--brand-dark);
+  color: #fff;
+  border-color: var(--brand-dark);
+}
+
+/* Contur */
+.btn-brand-outline {
+  border: 2px solid var(--brand);
+  color: var(--brand);
+  background: transparent;
+}
+
+.btn-brand-outline:hover {
+  background: var(--brand);
+  color: #fff;
+}

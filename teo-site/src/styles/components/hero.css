@@ -1,0 +1,26 @@
+.hero-section {
+  padding: 6rem 0;    /* echivalent cu py-5/py-6 */
+  text-align: left;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.dark .hero-section p {
+  color: #ccc;
+}
+
+/* Spațiu între butoane */
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}

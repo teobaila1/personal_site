@@ -1,0 +1,18 @@
+.contact-section {
+  padding: 4rem 0;
+}
+
+.contact-card {
+  background: rgba(255,255,255,.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid #eaeaea;
+}
+
+.dark .contact-card {
+  background: rgba(20,20,20,.6);
+  border-color: #333;
+}
+
+.dark .contact-section .text-secondary {
+  color: #bbb !important;
+}

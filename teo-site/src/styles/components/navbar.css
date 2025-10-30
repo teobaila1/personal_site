@@ -1,0 +1,41 @@
+/* Atașăm stilul nostru DOAR când are și clasa .app-navbar, ca să nu stricăm alte nav-uri Bootstrap */
+.navbar.app-navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #ddd;
+}
+
+.dark .navbar.app-navbar {
+  background: rgba(20,20,20,0.8);
+  border-bottom-color: #333;
+}
+
+/* Spațiere internă: folosim utilitare Bootstrap + completăm ce vrem noi */
+.navbar.app-navbar .container {
+  /* ai deja .container din Bootstrap, păstrăm doar alinieri extra dacă dorim
+     Bootstrap oricum centrează conținutul; dacă vrei flex custom: */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Link-urile din nav – lăsăm stilul Bootstrap și adăugăm doar spacing fin */
+.navbar.app-navbar .nav-link {
+  margin-left: .5rem;
+  font-weight: 500;
+}
+
+/* Buton dark mode */
+.dark-toggle {
+  margin-left: 1rem;
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+@import url("../components/buttons.css");
+
+:root {
+  --brand: #e11d48;    /* roșu primar */
+  --brand-dark: #be123c;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #fdfdfd;
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark {
+  background: #111;
+  color: #fdfdfd;
+}

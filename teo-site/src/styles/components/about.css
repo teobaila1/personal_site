@@ -1,0 +1,16 @@
+.about-section {
+  padding: 4rem 0;
+}
+
+.about-avatar {
+  max-width: 220px;
+}
+
+.dark .about-section .lead {
+  color: #bbb;
+}
+
+.about-badges .badge {
+  font-weight: 600;
+  letter-spacing: .2px;
+}

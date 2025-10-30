@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/components/about.css"
+import portrait from "../../public/portret_Teo.jpg"; // import corect
 
 export default function About() {
     return (<section id="about" className="about-section">
@@ -7,7 +8,11 @@ export default function About() {
         <div className="row g-4 align-items-center">
           <div className="col-12 col-md-4 text-center">
             <div className="about-avatar mx-auto">
-              <img src="../../portret_Teo.jpg" alt="Teodor Băilă" className="img-fluid rounded-4 shadow-sm" />
+              <img
+                src={portrait}
+                alt="Teodor Băilă"
+                className="img-fluid rounded-4 shadow-sm"
+              />
             </div>
           </div>
 

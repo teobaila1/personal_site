@@ -22,7 +22,7 @@ export default function About() {
             </p>
 
             <p className="text-secondary">
-              My background in martial arts taught me discipline, focus, and consistency, values I apply
+              My background in martial arts taught me discipline, focus, and consistency, values that I apply
               in both coding and personal growth. I like exploring everything from frontend to backend,
               constantly learning and experimenting with new technologies.
             </p>
